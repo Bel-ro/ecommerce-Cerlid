@@ -7,7 +7,11 @@
 #### Referentes que utilizamos para el desarrollo del sitio web tanto del lado front-end como las animaciones y estructuras.
 
 🔗[Dafiti](https://www.dafiti.com.ar/)
+  &nbsp;
 🔗[Falabella](https://www.falabella.com.ar/)
+  &nbsp;
 🔗[47 Street](https://www.47street.com.ar/)
+  &nbsp;
 🔗[Mango](https://shop.mango.com/)
+  &nbsp;
 🔗[Tropea](https://tropea.com.ar/)
