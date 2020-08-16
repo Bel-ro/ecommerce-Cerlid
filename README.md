@@ -26,7 +26,7 @@
 
 La eleccion de estas paginas fue por su estructura y las tipografias y su paleta de colores.
 
-  ☑[home](no-logueados-home.png)
+  ☑[home](no-logueados-home.png/)
 
 
    &nbsp;
