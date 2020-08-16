@@ -6,7 +6,7 @@
 
 #### Referentes que utilizamos para el desarrollo del sitio web tanto del lado front-end como las animaciones y estructuras.
 
-🔗[Dafiti](https://www.dafiti.com.ar/)
+  🔗[Dafiti](https://www.dafiti.com.ar/)
 
 
   &nbsp;
@@ -23,5 +23,25 @@
 
   &nbsp;
 🔗[Tropea](https://tropea.com.ar/)
+
+La eleccion de estas paginas fue por su estructura y las tipografias y su paleta de colores.
+
+  ☑[home](../wireframes/no-logueados-home.png)
+
+
+   &nbsp;
+  ☑
+
+
+   &nbsp;
+  ☑
+
+
+   &nbsp;
+  ☑
+
+
+   &nbsp;
+  ☑
 
 'Barlow', sans-serif
