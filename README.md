@@ -30,30 +30,27 @@ La eleccion de estas paginas fue por su estructura y las tipografias y su paleta
   ☑[home para usuarios no logueados](https://github.com/Bel-ro/ecommerce-Cerlid/blob/master/wireframes/no-logueagos-home.png)
 
 
-   &nbsp;
+  &nbsp;
   ☑[home para administradores](https://github.com/Bel-ro/ecommerce-Cerlid/blob/master/wireframes/home-administradores.png)
   
 
-
-   &nbsp;
+  &nbsp;
   ☑[home para usuarios logueados](https://github.com/Bel-ro/ecommerce-Cerlid/blob/master/wireframes/home-logueados.png)
   
 
-
-   &nbsp;
+  &nbsp;
   ☑[Detalle producto](https://github.com/Bel-ro/ecommerce-Cerlid/blob/master/wireframes/detalle-producto.png)
   
 
-
-   &nbsp;
+  &nbsp;
   ☑[Carrito de compras](https://github.com/Bel-ro/ecommerce-Cerlid/blob/master/wireframes/carrito.png)
   
+
+  &nbsp;
+  ☑[Formulario de registro](https://github.com/Bel-ro/ecommerce-Cerlid/blob/master/wireframes/registro.png)
   
-    &nbsp;
-  ☑[Formularo de registro](https://github.com/Bel-ro/ecommerce-Cerlid/blob/master/wireframes/registro.png)
   
-  
-     &nbsp;
+  &nbsp;
   ☑[Login](https://github.com/Bel-ro/ecommerce-Cerlid/blob/master/wireframes/login.png)
   
   
@@ -61,7 +58,7 @@ La eleccion de estas paginas fue por su estructura y las tipografias y su paleta
   ☑[Formulario de carga de productos](https://github.com/Bel-ro/ecommerce-Cerlid/blob/master/wireframes/agregar-productos.png)
   
   
-   &nbsp;
+  
    ####Fuentes a utilizar
    -Fuente :Roboto, sans-serif
    
