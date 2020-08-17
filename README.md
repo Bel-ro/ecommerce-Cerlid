@@ -1,6 +1,8 @@
 
 # Ecommerce-Cerlid
 ---
+![](https://github.com/Bel-ro/ecommerce-Cerlid/blob/master/images/cerlid-portada-git.png "Portada")
+
 *El nombre del ecommerce que desarrolle es Cerlid, tata de la comercializacion y venta de productos indumentaria, calzado y  accesorios*
 
 *La tematica del ecommerce se desarolla a una pagina web de comercializacion y venta de indumetaria, calzado y accesorios. Asimismo, nuestro objetivo es llevar una eficiente venta de productos atravez de nuestra plataforma web, en donde se busca una buena experiencia de usuario y potenciar las ventas del mismo, dandole una legancia y modernidad al sitio con las habilidades adquiridas. En este proyecto utilizaremos tenologias como HTML, CSS, JAVASCRIPT, NODEJS, EXPRESS, entre otras.*
@@ -60,9 +62,15 @@ La eleccion de estas paginas fue por su estructura y las tipografias y su paleta
   
   
    ####Fuentes a utilizar
+   
+   
+   &nbsp;
    -Fuente :Roboto, sans-serif
    
    ####Logo
+   
+   
+   &nbsp;
    -[Logo:](https://github.com/Bel-ro/ecommerce-Cerlid/blob/master/images/cerlid-Logo.png)
    
   
