@@ -61,16 +61,16 @@ La eleccion de estas paginas fue por su estructura y las tipografias y su paleta
   
   
   
-   ####Fuentes a utilizar
+   #### Fuentes a utilizar
    
    
    &nbsp;
-   -Fuente :Roboto, sans-serif
+   - Fuente: Roboto, sans-serif
    
-   ####Logo
+   #### Logo
    
    
    &nbsp;
-   -[Logo:](https://github.com/Bel-ro/ecommerce-Cerlid/blob/master/images/cerlid-Logo.png)
+   - Logo: [Cerlid](https://github.com/Bel-ro/ecommerce-Cerlid/blob/master/images/cerlid-Logo.png)
    
   
