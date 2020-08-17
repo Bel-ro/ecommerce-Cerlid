@@ -1,3 +1,4 @@
+
 # Ecommerce-Cerlid
 ---
 *El nombre del ecommerce que desarrolle es Cerlid, tata de la comercializacion y venta de productos indumentaria, calzado y  accesorios*
@@ -6,7 +7,7 @@
 
 #### Referentes que utilizamos para el desarrollo del sitio web tanto del lado front-end como las animaciones y estructuras.
 
-  🔗[Dafiti](https://www.dafiti.com.ar/)
+  🔗[levi's](https://www.levi.com.ar/)
 
 
   &nbsp;
@@ -26,22 +27,45 @@
 
 La eleccion de estas paginas fue por su estructura y las tipografias y su paleta de colores.
 
-  ☑[home](wireframes/no-logueados-home.png/)
+  ☑[home para usuarios no logueados](https://github.com/Bel-ro/ecommerce-Cerlid/blob/master/wireframes/no-logueagos-home.png)
 
 
    &nbsp;
-  ☑
+  ☑[home para administradores](https://github.com/Bel-ro/ecommerce-Cerlid/blob/master/wireframes/home-administradores.png)
+  
 
 
    &nbsp;
-  ☑
+  ☑[home para usuarios logueados](https://github.com/Bel-ro/ecommerce-Cerlid/blob/master/wireframes/home-logueados.png)
+  
 
 
    &nbsp;
-  ☑
+  ☑[Detalle producto](https://github.com/Bel-ro/ecommerce-Cerlid/blob/master/wireframes/detalle-producto.png)
+  
 
 
    &nbsp;
-  ☑
-
-'Barlow', sans-serif
+  ☑[Carrito de compras](https://github.com/Bel-ro/ecommerce-Cerlid/blob/master/wireframes/carrito.png)
+  
+  
+    &nbsp;
+  ☑[Formularo de registro](https://github.com/Bel-ro/ecommerce-Cerlid/blob/master/wireframes/registro.png)
+  
+  
+     &nbsp;
+  ☑[Login](https://github.com/Bel-ro/ecommerce-Cerlid/blob/master/wireframes/login.png)
+  
+  
+   &nbsp;
+  ☑[Formulario de carga de productos](https://github.com/Bel-ro/ecommerce-Cerlid/blob/master/wireframes/agregar-productos.png)
+  
+  
+   &nbsp;
+   ####Fuentes a utilizar
+   -Fuente :Roboto, sans-serif
+   
+   ####Logo
+   -[Logo:](https://github.com/Bel-ro/ecommerce-Cerlid/blob/master/images/cerlid-Logo.png)
+   
+  
