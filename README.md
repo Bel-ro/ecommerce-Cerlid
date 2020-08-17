@@ -29,6 +29,8 @@
 
 La eleccion de estas paginas fue por su estructura y las tipografias y su paleta de colores.
 
+  #### Wireframes
+
   ☑[home para usuarios no logueados](https://github.com/Bel-ro/ecommerce-Cerlid/blob/master/wireframes/no-logueagos-home.png)
 
 
@@ -63,14 +65,10 @@ La eleccion de estas paginas fue por su estructura y las tipografias y su paleta
   
    #### Fuentes a utilizar
    
-   
-   &nbsp;
    - Fuente: Roboto, sans-serif
    
    #### Logo
    
-   
-   &nbsp;
    - Logo: [Cerlid](https://github.com/Bel-ro/ecommerce-Cerlid/blob/master/images/cerlid-Logo.png)
    
   
