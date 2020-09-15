@@ -1,0 +1,9 @@
+[{
+    "id":1,"nombre":"ropa","precio":20,"descripcion":"de mal gusto","categoria":"indumentaria","subcategoria":"unisex","imagen":"banner1.png"
+},
+{
+     "id":3,"nombre":"ropa","precio":20,"descripcion":"de mal gusto","categoria":"indumentaria","subcategoria":"unisex","imagen":"banner3.png"
+},
+{
+    "id":4,"nombre":"ropa","precio":20,"descripcion":"de mal gusto","categoria":"indumentaria","subcategoria":"unisex","imagen":"banner4.png"
+}]

@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Buzo con Frizado",
+        "categoria":"mujer",
+        "image": "buzo1-m.jpg"
+    },
+    {
+        "id": 2,
+        "name": "camiza Mostaza",
+        "categoria":"mujer",
+        "image": "cami-m.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Mochila Lila",
+        "categoria":"mujer",
+        "image": "mochila4-m.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Mangalarga",
+        "categoria":"mujer",
+        "image": "remera5-m.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Buzo",
+        "categoria":"hombre",
+        "image": "buzo-h.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Remera Bicolor",
+        "categoria":"hombre",
+        "image": "remera6-h.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Mochila",
+        "categoria":"hombre",
+        "image": "mochila1-h.jpg"
+    },
+    {
+        "id": 9,
+        "name": "",
+        "categoria":"sub-banner",
+        "image": "banner_jeans_mujer_1.jpg"
+    },
+    {
+        "id": 10,
+        "name": "",
+        "categoria":"sub-banner",
+        "image": "banner_jeans_3.jpg"
+    },
+    {
+        "id": 11,
+        "name": "",
+        "categoria":"sub-banner",
+        "image": "buzo2-h.jpg"
+    },
+    {
+        "id": 12,
+        "name": "",
+        "categoria":"sub-banner",
+        "image": "remera-m.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Camisa",
+        "categoria":"hombre",
+        "image": "camisa-h.jpg"
+    }
+]

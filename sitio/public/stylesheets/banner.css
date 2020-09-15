@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    width: 100%;
+    height: 26vh;
+    margin: auto;
+    animation: banner 14s infinite linear alternate;
+    background-size: 100%;
+    
+}
+@keyframes banner{
+    0%, 30%{
+        background-image: url(/images/banner1.png);
+        opacity:1;
+    }
+    31%, 34%{
+        opacity:0.5;
+    }
+    35%, 65%{
+        background-image: url(/images/banner2.png);
+        opacity:1;
+    }
+    66%, 69%{
+        opacity:0.5;
+    }
+    70%, 100%{
+        background-image: url(/images/banner3.png);
+       
+    }
+
+}
+/* --- VERSION PARA TABLET --- */
+
+@media(min-width:768px) {
+    .banner{
+        width: 100%;
+        height: 55vh;
+    }
+    
+}
+
+/* --- VERSION PARA ESCRITORIO --- */
+
+@media(min-width:1024px) {
+    .banner{
+        width: 100%;
+        height: 95vh;
+    }
+}

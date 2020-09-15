@@ -1,0 +1,73 @@
+<%- include('./partials/head.ejs') %> 
+<%- include('./partials/header.ejs') %> 
+    <!--BANNER-->
+   
+        <div class="banner">
+
+        </div>
+      
+    <!--PRODUCTOS-->
+    <div class="contenedor-produc">
+    <div class=" tendencia">
+      <div class="title">
+        <h2>#Tendencias</h2>
+      </div>
+      <div class=" tendencia-img">
+        <img src="/images/campera2-m.jpg" alt="">
+      </div>
+      </div>
+      <div class="contenedor-cars">
+    <% productos.forEach(producto => { %>
+    <% if (producto.categoria == "mujer") { %>
+    
+    <div class="cars">
+      <div class="image">
+        <img src="/images/<%= producto.image %> " alt="">
+      </div>
+      <div class="title">
+        <h2><%= producto.name %> </h2>
+      </div>
+      <div class="des">
+        <button>Ver mas</button>
+      </div>
+    </div>
+    <% } %>
+    <% }) %>
+  </div>
+  </div>
+      <!--PRODUCTOS-->
+    <!--Sub-banner-->
+      <div class="sub-banner">
+      <img src="/images/sub-banner.png" alt="">
+      </div>
+     <!--Sub-banner-->
+      <!--PRODUCTOS-->
+      <div class="contenedor-produc">
+        <div class="tendencia ">
+          <div class="title">
+            <h2>#Tendencias</h2>
+          </div>
+          <div class="tendencia-img  ">
+            <img  src="/images/campera-h.jpg" alt="">
+          </div>
+          </div>
+          <div class="contenedor-cars">
+        <% productos.forEach(producto => { %>
+        <% if (producto.categoria == "hombre") { %>
+        
+        <div class="cars">
+          <div class="image">
+            <img src="/images/<%= producto.image %> " alt="">
+          </div>
+          <div class="title">
+            <h2><%= producto.name %> </h2>
+          </div>
+          <div class="des">
+            <button><a href="/products">Ver mas</a></button>
+          </div>
+        </div>
+        <% } %>
+        <% }) %>
+      </div>
+      </div>
+    <%- include('./partials/footer.ejs') %> 
