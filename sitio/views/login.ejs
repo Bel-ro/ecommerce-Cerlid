@@ -1,0 +1,38 @@
+
+<%- include('./partials/head.ejs') %> 
+<%- include('./partials/header.ejs') %>
+
+<main>
+    <div class="container">
+        <div class="login-container">
+            <div class="login">
+                <h2>Login</h2>
+                <% if (typeof errors != 'undefined') { %>
+                 
+               <ul>
+                   <% errors.forEach(error =>{%>
+                       <li><%= error.msg  %> </li>
+
+                   <% }) %> 
+               </ul>
+               <% } %>
+               <div class="login">
+               <h2>Iniciar Seccion</h2>
+               <div class="login-items">
+                   <form action="/users/login" method="POST">
+                    <button class="fb"><i class="fab fa-facebook-f"></i> Acceder con Facebook</button>
+                    <button class="tw"><i class="fab fa-twitter"></i> Acceder con Facebook</button>
+                    <input type="email" placeholder="Email" class="email" name="email">
+                    <input type="password" placeholder="Contraseña" class="password" name="password">
+                    <input type="checkbox" name="remenber"> Recordar contraseña
+                  
+                    <input type="submit" class="submit" value="Acceder">
+                </form>
+                   
+               </div>
+            </div>
+                
+        </div>
+    </div>
+</main>
+<%- include('./partials/footer.ejs') %> 

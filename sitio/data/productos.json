@@ -1,9 +1,1 @@
-[{
-    "id":1,"nombre":"ropa","precio":20,"descripcion":"de mal gusto","categoria":"indumentaria","subcategoria":"unisex","imagen":"banner1.png"
-},
-{
-     "id":3,"nombre":"ropa","precio":20,"descripcion":"de mal gusto","categoria":"indumentaria","subcategoria":"unisex","imagen":"banner3.png"
-},
-{
-    "id":4,"nombre":"ropa","precio":20,"descripcion":"de mal gusto","categoria":"indumentaria","subcategoria":"unisex","imagen":"banner4.png"
-}]
+[{"id":1,"nombre":"Mochila","precio":200,"descripcion":"mochila floriada con bolsillo","categoria":"accesorio","subcategoria":"unisex","imagen":"mochila1-m.jpg"},{"id":2,"nombre":"jeans","precio":"600","categoria":"mujer","descripcion":"jeans negro elastizado y tiro alto","imagen":"imageProduct-1600362832739.jpg"},{"id":3,"nombre":"jeans","precio":"600","categoria":"hombre","descripcion":"jeans azul elastizado","imagen":"imageProduct-1600362883423.jpg"},{"id":4,"nombre":"Remera","precio":"800","categoria":"hombre","descripcion":"Remera tri color de 100% algodon","imagen":"imageProduct-1600363044963.jpg"}]

@@ -3,14 +3,14 @@
 
 <main>
     <h1>Agregar producto</h1>
-    <form action="/products/agregarProducto" method="POST">
+    <form action="/products/agregarProducto" method="POST" enctype="multipart/form-data">
         <div>
             <label for="">Nombre:</label>
-            <input type="text" name="nombre">
+            <input type="text" name="nombre" required>
         </div>
         <div>
             <label for="">Precio:</label>
-            <input type="number" name="precio">
+            <input type="number" name="precio" required>
         </div>
         <div>
             <label for="">Categoria:</label>
@@ -32,6 +32,10 @@
         <div>
             <label for="">Descripcion</label>
             <textarea name="descripcion" id="" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+
+            Selecciona una imagen<input type="file" name="imageProduct">
         </div>
         <button type="submit">Agregar</button>
     </form>

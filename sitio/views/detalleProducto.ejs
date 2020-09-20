@@ -9,7 +9,7 @@
     <h1><%= producto.nombre %> </h1>
     <h2><%= producto.precio %> $</h2>
     <p><%= producto.descripcion  %> </p>
-    <img src="/images/<%=producto.imagen %> " alt="">
+    <img src="/images/productImages/<%=producto.imagen %> " alt="">
   
 
     <form action="/products/eliminar/<%=producto.id %>?_method=DELETE" method="POST">
