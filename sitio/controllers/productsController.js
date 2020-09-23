@@ -4,16 +4,6 @@ const path = require('path');
 let productos = fs.readFileSync(path.join(__dirname, '..','data','productos.json'), 'utf-8');
 productos = JSON.parse(productos)
 
-let ultimoId = (array) =>{
-   let ultimoId;
-
-array.forEach(element =>{
-    ultimoId = element.id
-   
-})
-  return ultimoId +1;
-}
-
 module.exports = {
     listado: (req, res) =>{
         res.render('productos',{listaDeProductos : productos, title : 'Productos', css:"productos.css"})
@@ -31,15 +21,15 @@ module.exports = {
     search: (req,res) => {
         req.query.busqueda;
     },
-    agregar: (req, res, next) =>{
-      let productoNuevo= {
-         id: ultimoId(productos),
+    agregar: (req,res) =>{
+        
+     let productoNuevo= {
+         id: productos.length + 1,
          nombre : req.body.nombre,
          precio : req.body.precio,
          categoria: req.body.categoria,
          categoria: req.body.subcategoria,
-         descripcion:req.body.descripcion,
-         imagen: req.files[0].filename
+         descripcion:req.body.descripcion
      }
      //agregue a mi base de datos el productoque cree anteriormente
      productos.push(productoNuevo);
@@ -58,7 +48,7 @@ module.exports = {
                 productoAEditar = producto 
             }           
         });
-        res.render('editarProducto', { producto: productoAEditar, title: 'Editar Producto',css:"productos.css"})
+        res.render('editarProducto', {producto: productoAEditar, title: 'Editar Producto',css:"productos.css"})
     },
     edit:(req,res) =>{
         //buscado el producto a editar en la base de datos
@@ -79,8 +69,7 @@ module.exports = {
      res.redirect('/products/detalle/'+ req.params.id);
     },
     eliminar: (req,res) =>{
-        res.send(req.body.id)
-        let indiceDelProducto;
+        let indiceDelProducto
         productos.forEach(producto => {
             if(producto.id == req.params.id){
                 indiceDelProducto = productos.indexOf(producto); 

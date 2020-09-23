@@ -4,7 +4,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var methodOverride = require('method-override');
-var session = require('express-session')
+var session = require('express-session');
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
@@ -29,7 +29,7 @@ app.use((req, res, next) =>{
   next();
 })
 
-app.use(session({secret: 'Mensaje secreto'}));
+app.use(session({secret : 'mensaje secreto'}));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);

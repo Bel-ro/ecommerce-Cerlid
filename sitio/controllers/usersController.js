@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
-const { validationResult } = require('express-validator')
-const bcrypt = require('bcrypt')
+const { validationResult } = require('express-validator');
+const bcrypt = require('bcrypt');
 
 
 let users = fs.readFileSync(path.join(__dirname, '..','data','users.json'), 'utf-8');
@@ -53,9 +53,10 @@ let userController = {
             res.redirect('login', {errors: errors.errors,  title:'login', css:"register.css"})
         }else{
             //login  usuario
-            users.forEach(user =>{
+            users.forEach(user => {
                 if(user.email == req.body.email && bcrypt.compareSync(req.body.password, user.password)){
-                    req.session.user == user.user;
+
+                    req.session.user = user.user;
                     res.redirect('/users/perfil')
 
                 }
@@ -65,7 +66,7 @@ let userController = {
     },
     perfil:(req, res) =>{
         
-        res.render('perfil', {user: req.session.user,  title:'perfil', css:"register.css"})
+        res.render('perfil', {user: req.session.user , title:'perfil', css:"register.css"})
     }
 }
 module.exports = userController;
